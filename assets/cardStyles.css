@@ -1,5 +1,7 @@
 :root{
     --borders:1px solid gray;
+    --principal-color: #3271DB;
+    --bg-color:white;
 }
 .cardMenu{
     display:grid;
@@ -8,7 +10,7 @@
     width: 400px;
     height: 200px;
     border-radius: 5px;
-    background-color: white;
+    background-color: var(--bg-color);
     font-family: roboto;
     border: var(--borders)
 }
@@ -24,16 +26,16 @@
 }
 .header-content, a{
     display:flex;
-    width: 200px;
+    width: auto;
     padding:8px 15px;
     justify-content: space-between;
-    color:#3271DB;
+    color:var(--principal-color);
     cursor:pointer;
     
 }
 .select{
-    background-color: #3271DB;
-    color:white;
+    background-color: var(--principal-color);
+    color:var(--bg-color);
     border-radius: 5px;
 
 }
@@ -60,10 +62,10 @@
     width: 150px;
     height: 30px;
     border: none;
-    color:white;
+    color:var(--bg-color);
     font-size: 1rem;
     border-radius: 5px;
-    background-color: #3271DB;
+    background-color: var(--principal-color);
 }
 .content-card-menu button:hover{
     cursor:pointer;
