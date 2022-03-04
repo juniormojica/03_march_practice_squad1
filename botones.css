@@ -1,0 +1,22 @@
+
+.btn{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.btn-white{
+    background: #fff;
+}
+
+.btn-light{
+    background: lightgrey;
+}
+
+.btn-dark{
+    background: darkgrey;
+}
+
