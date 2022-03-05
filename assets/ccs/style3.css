@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3rem;
+    --variable: #fff;
+  
+    /*========== Colors ==========*/
+    --color-primary:black;
+    --color-secondary: #f5f5f5;
+    --color-tertiary: #dadada;
+    --color-btn:#3f9deb;
+    /*========== Colors background ==========*/
+    --back-primary:#EEEEEE;
+
+    /*========== Font and typography ==========*/
+    --body-font: sans-serif;
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-bold: 700;
+    --font-weight: 1000; /*grosor*/
+  
+    
+    
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+    /*========== borders ==========*/
+
+  }
+
+/*===============titles===========*/
+.h1{
+    font-size: 1.8rem;
+    font-weight:bold 400;
+
+    
+}
+.h4{
+    font-size: 1rem;
+    font-weight:bold 400;
+    color:var(--color-tertiary);
+
+}
+.p{
+    color: var(--color-primary);
+    font-weight: bold 300;
+    text-align: justify;
+}
+
+
+.spacing-bottom{
+      margin-bottom:1rem;
+  }
+
+.spacing-bottom2{
+    margin-bottom:0.5rem;
+}
+
+.spacing-left{
+    margin-left:1rem;
+}
+
+.b-basic{
+      border:1px solid black;
+}
+
+
+
+*,
+body{
+    padding:0px;
+    margin: 0px;
+   
+}
+main{
+
+    width: 51rem;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    margin-left: 5%;
+    padding: 20px;
+}
+
+.navbar{
+    display:flex;
+    background:var(--back-primary);
+    flex-direction: column;
+    width:750px;
+    height:var(--header-height);
+    justify-content: center;
+    
+}
+.nav-ul{
+    display: flex;
+    gap:4px;
+
+}
+.nav-ul-li{
+    
+    width:80px;
+    height:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    list-style: none;
+}
+.nav-ul-li:hover{
+    background: #f8f8f8;
+    color: black;
+}
+.nav-a{
+    text-decoration: none;
+    color: #776f6f;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    width:350px;
+    border-radius:5px;
+    padding:1rem 2rem;
+    border:solid 2px var(--color-tertiary);
+    transition-duration: 0.5s;
+    transform: scale(1);
+}
+.card:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.05);
+    background:#f8f8f8;
+}
+
+.card-footer{
+    display:flex;
+    gap: 55px;
+}
+.btn-card{
+    text-decoration: none;
+    border:none;
+    background:none;
+    transition-duration: 0.5s;
+    transform: scale(1);
+}
+.btn-card:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+    
+}
+.btn-a{
+    text-decoration: none;
+    color: var(--color-btn);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
