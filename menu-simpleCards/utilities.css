@@ -1,0 +1,38 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root { 
+ --bordeline : rgb(28, 83, 184);
+}
+
+.flex { 
+    display: flex;
+}
+
+.f-row { 
+    flex-direction: row;
+}
+
+.f-column { 
+    flex-direction: column;
+}
+
+.w-33 { 
+    width: 33%;
+}
+
+.w-100 { 
+    width: 100%;
+}
+.m-05 { 
+    margin-top: 0.5rem;
+}
+.m-1y {
+    margin-top: 1rem;
+}
+
+.padding {
+    padding: 2rem;
+}
