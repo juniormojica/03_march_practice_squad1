@@ -1,0 +1,72 @@
+:root{
+    --borders:1px solid gray;
+    --principal-color: #3271DB;
+    --bg-color:white;
+}
+.cardMenu{
+    display:grid;
+    grid-template-rows: 50px 150px;
+    grid-template-columns: auto;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    font-family: roboto;
+    border: var(--borders)
+}
+.header-card-menu{
+    grid-row: 1/2;
+    display:flex;
+    width:cover;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: whitesmoke;
+    border-bottom: var(--borders);
+}
+.header-content, a{
+    display:flex;
+    width: auto;
+    padding:8px 15px;
+    justify-content: space-between;
+    color:var(--principal-color);
+    cursor:pointer;
+    
+}
+.select{
+    background-color: var(--principal-color);
+    color:var(--bg-color);
+    border-radius: 5px;
+
+}
+.content-card-menu{
+    width: cover;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+    grid-template-rows: repeat(1fr);
+}
+.content-card-menu h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin:auto;
+}
+.content-card-menu p{
+    padding: 0 30px;
+    margin:auto;
+}
+.content-card-menu button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    color:var(--bg-color);
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: var(--principal-color);
+}
+.content-card-menu button:hover{
+    cursor:pointer;
+}
